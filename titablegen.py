@@ -254,7 +254,7 @@ unsigned short yylex(void){
 		ret = multibyte[tokIndex++];
 	}
 	return ret;
-}""" + ("""
+}""" + (r"""
 
 int main(int argc,const char * args[])
 {
